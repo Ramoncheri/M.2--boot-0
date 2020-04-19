@@ -43,8 +43,6 @@ def returnF(nombre):
     if nombre in funciones.keys():
         return funciones[nombre]
     
-
-    
     return None
 
 print( returnF('max')(1,3,-1,15,9))
